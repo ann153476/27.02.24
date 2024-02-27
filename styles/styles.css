@@ -295,3 +295,12 @@ button {
   height: 15px;
   background-color: rgba(0, 0, 0, 0.1);
 }
+/*  */
+.our__partners {
+  margin-bottom: 110px;
+}
+.our__partners h2 {
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 130%;
+}
