@@ -9,6 +9,9 @@ body {
   margin: 0;
   padding: 0;
 }
+.black_c {
+  color: #000;
+}
 .content__box section {
   width: 1428px;
 }
@@ -21,11 +24,10 @@ button {
   color: #ffffff;
 }
 .hero {
+  border: 1px solid red;
   width: 1148px;
   height: 452px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  margin-bottom: 161px;
 }
 .hero h1 {
   font-size: 120px;
@@ -33,19 +35,21 @@ button {
   line-height: 120%;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -1px -1px 0 #000,
     1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  margin-bottom: 15px;
 }
 .hero p {
   font-size: 32px;
   font-weight: bold;
   line-height: 150%;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 41px;
 }
 .hero button {
   font-size: 16px;
   line-height: 104%;
   width: 207px;
   height: 60px;
-  border-radius: 20px;
+  border-radius: 50px;
   border: none;
   background-image: linear-gradient(45deg, #0370e6, #18abfd, #48f4d8);
 }
@@ -56,6 +60,7 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-bottom: 108px;
 }
 .popular__events h2 {
   font-size: 96px;
@@ -68,7 +73,7 @@ button {
   align-items: center;
   justify-content: space-around;
   right: 0;
-  top: 20px;
+  top: 41px;
   font-size: 14.52px;
   line-height: 104%;
   width: 126px;
@@ -76,12 +81,22 @@ button {
   border-radius: 49.5px;
   border: 1px solid #4d4d4d;
   background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.see__all p {
+  margin-right: 13px;
+}
+.arrow__right {
+  width: 19px;
+  height: 10px;
 }
 .popular__events__img {
   width: 100%;
   height: 640px;
 }
-
 .video__box {
   position: relative;
 }
@@ -94,14 +109,21 @@ button {
   transform: translate(-50%, -50%);
 }
 /*  */
-
-.d_t_box {
+.ticketym__in__counts {
+  height: 810px;
+  margin-bottom: 120px;
   position: relative;
-  height: 677px;
 }
-.d_t_box > div {
+.ticketym__in__counts h2 {
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 130%;
+  margin-bottom: 50px;
+}
+.ticketym__in__counts > div {
   position: absolute;
   border-radius: 31px;
+  box-sizing: border-box;
 }
 .d_t_1 {
   left: 0;
@@ -109,23 +131,24 @@ button {
   height: 677px;
   background-image: url("../img/Group782.png");
   background-repeat: no-repeat;
-  /*  */
-  background-position: top 20px right 5px;
-  /*  */
+  background-position: top 24px right 0;
   background-color: #1c2e36;
+  padding: 62px 0 0 64px;
 }
 .d_t_2 {
   right: 0;
   width: 703px;
   height: 322px;
   background-color: #35232a;
+  padding: 48px 0 0 60px;
 }
 .d_t_3 {
   bottom: 0;
-  left: 725px;
+  right: 368px;
   width: 335px;
   height: 325px;
   background-color: #2717df;
+  padding: 37px 0 0 60px;
 }
 .d_t_4 {
   right: 0;
@@ -133,4 +156,53 @@ button {
   width: 335px;
   height: 325px;
   background-color: #fd5959;
+  padding: 37px 0 0 56px;
+}
+.ticketym__in__counts h3 {
+  font-size: 56px;
+  font-weight: normal;
+  line-height: 120%;
+  height: 51px;
+  margin-bottom: 245px;
+}
+.counts__name {
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 120%;
+  color: #ffffff49;
+}
+.c-n-1 {
+  color: #ffffff40;
+}
+.c-n-2 {
+  color: #6c505b;
+}
+.c-n-3 {
+  color: #9f97ff;
+}
+.c-n-4 {
+  color: #b60303;
+}
+.black_c {
+  color: black;
+}
+.counts__item_1 {
+  font-size: 120px;
+  line-height: 120%;
+  margin-bottom: 86px;
+}
+.counts__item_2 {
+  font-size: 86px;
+  line-height: 120%;
+  margin-bottom: 86px;
+}
+.counts__item_3 {
+  font-size: 86px;
+  line-height: 120%;
+  margin-bottom: 96px;
+}
+.counts__item_4 {
+  font-size: 86px;
+  line-height: 120%;
+  margin-bottom: 96px;
 }
