@@ -23,6 +23,13 @@ span,
 button {
   color: #ffffff;
 }
+h3 {
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 130%;
+  margin-bottom: 50px;
+}
+/*  */
 .hero {
   width: 1148px;
   height: 452px;
@@ -60,11 +67,6 @@ button {
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: 108px;
-}
-.popular__events h2 {
-  font-size: 96px;
-  font-weight: normal;
-  line-height: 120%;
 }
 .see__all {
   position: absolute;
@@ -113,12 +115,6 @@ button {
   margin-bottom: 120px;
   position: relative;
 }
-.ticketym__in__counts h2 {
-  font-size: 64px;
-  font-weight: bold;
-  line-height: 130%;
-  margin-bottom: 50px;
-}
 .ticketym__in__counts > div {
   position: absolute;
   border-radius: 31px;
@@ -157,7 +153,7 @@ button {
   background-color: #fd5959;
   padding: 37px 0 0 56px;
 }
-.ticketym__in__counts h3 {
+.we__sold {
   font-size: 56px;
   font-weight: normal;
   line-height: 120%;
@@ -209,12 +205,6 @@ button {
 .top__artists {
   margin-bottom: 120px;
 }
-.top__artists h2 {
-  margin-bottom: 50px;
-  font-size: 64px;
-  font-weight: bold;
-  line-height: 130%;
-}
 .music__styles {
   display: flex;
   margin-bottom: 32px;
@@ -243,12 +233,6 @@ button {
 /*  */
 .festival__genres {
   margin-bottom: 120px;
-}
-.festival__genres h2 {
-  font-size: 64px;
-  font-weight: bold;
-  letter-spacing: 130%;
-  margin-bottom: 50px;
 }
 .f__g {
   display: flex;
@@ -298,9 +282,4 @@ button {
 /*  */
 .our__partners {
   margin-bottom: 110px;
-}
-.our__partners h2 {
-  font-size: 64px;
-  font-weight: bold;
-  line-height: 130%;
 }
