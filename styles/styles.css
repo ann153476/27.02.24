@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap");
+body {
+  font-family: "Heebo", sans-serif;
+  font-optical-sizing: auto;
+  background-color: rgb(184, 179, 220);
+  width: 1920px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.content__box section {
+  width: 1428px;
+}
+h1,
+h2,
+h3,
+p,
+span,
+button {
+  color: #ffffff;
+}
+.hero {
+  width: 1148px;
+  height: 452px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hero h1 {
+  font-size: 120px;
+  font-weight: bold;
+  line-height: 120%;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -1px -1px 0 #000,
+    1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.hero p {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 150%;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.hero button {
+  font-size: 16px;
+  line-height: 104%;
+  width: 207px;
+  height: 60px;
+  border-radius: 20px;
+  border: none;
+  background-image: linear-gradient(45deg, #0370e6, #18abfd, #48f4d8);
+}
+/*  */
+.popular__events {
+  position: relative;
+  height: 805px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.popular__events h2 {
+  font-size: 96px;
+  font-weight: normal;
+  line-height: 120%;
+}
+.see__all {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  right: 0;
+  top: 20px;
+  font-size: 14.52px;
+  line-height: 104%;
+  width: 126px;
+  height: 52px;
+  border-radius: 49.5px;
+  border: 1px solid #4d4d4d;
+  background-color: transparent;
+}
+.popular__events__img {
+  width: 100%;
+  height: 640px;
+}
+
+.video__box {
+  position: relative;
+}
+.play__ico {
+  position: absolute;
+  width: 91px;
+  height: 91px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*  */
+
+.d_t_box {
+  position: relative;
+  height: 677px;
+}
+.d_t_box > div {
+  position: absolute;
+  border-radius: 31px;
+}
+.d_t_1 {
+  left: 0;
+  width: 689px;
+  height: 677px;
+  background-image: url("../img/Group782.png");
+  background-repeat: no-repeat;
+  /*  */
+  background-position: top 20px right 5px;
+  /*  */
+  background-color: #1c2e36;
+}
+.d_t_2 {
+  right: 0;
+  width: 703px;
+  height: 322px;
+  background-color: #35232a;
+}
+.d_t_3 {
+  bottom: 0;
+  left: 725px;
+  width: 335px;
+  height: 325px;
+  background-color: #2717df;
+}
+.d_t_4 {
+  right: 0;
+  bottom: 0;
+  width: 335px;
+  height: 325px;
+  background-color: #fd5959;
+}
