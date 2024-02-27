@@ -212,6 +212,7 @@ button {
 .top__artists h2 {
   margin-bottom: 50px;
   font-size: 64px;
+  font-weight: bold;
   line-height: 130%;
 }
 .music__styles {
