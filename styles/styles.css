@@ -206,3 +206,92 @@ button {
   line-height: 120%;
   margin-bottom: 96px;
 }
+/*  */
+.top__artists {
+  margin-bottom: 120px;
+}
+.top__artists h2 {
+  margin-bottom: 50px;
+  font-size: 64px;
+  line-height: 130%;
+}
+.music__styles {
+  display: flex;
+  margin-bottom: 32px;
+}
+.music__styles > p {
+  border-radius: 32.81px;
+  background-color: #252525;
+  padding: 7.29px 26.5px;
+  font-size: 16px;
+  line-height: 23.1px;
+}
+.music__styles > p:not(:last-child) {
+  margin-right: 13px;
+}
+.artists__img {
+  height: 842px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.artists__img > img {
+  width: 266px;
+  height: 408px;
+}
+/*  */
+.festival__genres {
+  margin-bottom: 120px;
+}
+.festival__genres h2 {
+  font-size: 64px;
+  font-weight: bold;
+  letter-spacing: 130%;
+  margin-bottom: 50px;
+}
+.f__g {
+  display: flex;
+}
+.f__g div {
+  position: relative;
+  box-sizing: border-box;
+  width: 220px;
+  height: 78px;
+  border-radius: 20px;
+  padding: 24px 0 0 31px;
+}
+.f__g p {
+  font-size: 16px;
+  line-height: 118.5%;
+  font-weight: bold;
+}
+.f__g div:not(:last-child) {
+  margin-right: 24px;
+}
+.f__g div:nth-child(1) {
+  background-color: #1d5b2e;
+}
+.f__g div:nth-child(2) {
+  background-color: #24327b;
+}
+.f__g div:nth-child(3) {
+  background-color: #4e1d5b;
+}
+.f__g div:nth-child(4) {
+  background-color: #5b421d;
+}
+.f__g div:nth-child(5) {
+  background-color: #5b251d;
+}
+.f__g div:nth-child(6) {
+  background-color: #1e1d5b;
+}
+.f__g span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 15px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
