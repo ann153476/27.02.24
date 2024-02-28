@@ -283,3 +283,38 @@ h3 {
 .our__partners {
   margin-bottom: 110px;
 }
+.our__partners > div {
+  display: flex;
+  justify-content: space-between;
+}
+.our__partners p {
+  font-size: 20px;
+  line-height: 150%;
+  width: 552px;
+}
+.our__partners table {
+  width: 1429px;
+  height: 298px;
+  border-radius: 24px;
+  border-collapse: separate;
+  border-spacing: 0;
+  text-align: center;
+}
+
+.our__partners td {
+  border: 1px solid #676767;
+  width: 285.8px;
+  height: 149px;
+}
+.our__partners tr:last-child td:first-child {
+  border-bottom-left-radius: 24px;
+}
+.our__partners tr:last-child td:last-child {
+  border-bottom-right-radius: 24px;
+}
+.our__partners tr:first-child td:first-child {
+  border-top-left-radius: 24px;
+}
+.our__partners tr:first-child td:last-child {
+  border-top-right-radius: 24px;
+}
